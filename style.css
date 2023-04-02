@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 *{
     
     padding:0;
@@ -24,10 +24,10 @@
    
 }
 
-ul li a{
+.nav-bar ul li a{
     text-decoration:none;
     font-weight:bold;
-    /* color:white; */
+    color:black;
     font-family:poppins;
 }
 
@@ -149,19 +149,32 @@ ul li a{
     padding:5px 10px;
 
 }
-.footer ul li{
+.footer ul li a{
     padding:5px;
     font-family:poppins;
+    text-decoration:none;
+    color:white;
 }
 .go{
     color:aqua;
 }
-.h1{
+.logo{
     color:black;
+    font-family:pacifico;
+    font-size:24px;
+
 }
 .BUY{
-    margin:15px;
-    font-size:bold;
+    padding:10px 30px;
+    font-weight:bold;
+    background-color:aqua;
+    border:none;
+    border-radius:5px;
+    
+}
+.footer ul li{
+    padding:5px;
+    font-family:poppins;
 }
 
    

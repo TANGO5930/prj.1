@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
+    
     padding:0;
     margin:0;
     box-sizing:border-box;
@@ -26,6 +28,7 @@ ul li a{
     text-decoration:none;
     font-weight:bold;
     color:white;
+    font-family:poppins;
 }
 
 
@@ -126,8 +129,9 @@ ul li a{
 .tx.footer{
     height:20vh;
 }
-.footer ul{
+.footer ul {
     list-style:none;
+    
 }
 .footer-top{
     display:flex;
@@ -144,6 +148,10 @@ ul li a{
     display:inline-block;
     padding:5px 10px;
 
+}
+.footer ul li{
+    padding:5px;
+    font-family:poppins;
 }
 
    

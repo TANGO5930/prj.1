@@ -11,8 +11,8 @@
     padding:0 10px;
     height:10vh;
     align-items:center;
-    color:white;
-    background-color:black;
+    color:rgb(236, 236, 236);
+    /* background-color:black; */
 
 
     
@@ -27,7 +27,7 @@
 ul li a{
     text-decoration:none;
     font-weight:bold;
-    color:white;
+    /* color:white; */
     font-family:poppins;
 }
 
@@ -152,6 +152,16 @@ ul li a{
 .footer ul li{
     padding:5px;
     font-family:poppins;
+}
+.go{
+    color:aqua;
+}
+.h1{
+    color:black;
+}
+.BUY{
+    margin:15px;
+    font-size:bold;
 }
 
    

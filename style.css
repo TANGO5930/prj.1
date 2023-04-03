@@ -110,7 +110,7 @@
     padding:20px;
 }
 .footer{
-    height:30vh;
+    /* height:30vh; */
     color: rgb(255, 251, 251);
     background-color: black;
     padding:20px;
@@ -136,7 +136,7 @@
 .footer-top{
     display:flex;
     justify-content:space-between;
-    height:15vh;
+    /* height:15vh; */
 }
 .footer-bottom{
     display:flex;
@@ -154,6 +154,7 @@
     font-family:poppins;
     text-decoration:none;
     color:white;
+    
 }
 .go{
     color:aqua;
@@ -235,6 +236,18 @@
         padding:30px 0;
       
 
+    }
+    .footer-top{
+        display:flex;
+        flex-direction:column;
+    }
+    .footer-top ul{
+        margin-top:30px;
+    }
+    .footer-bottom{
+        display:flex;
+        flex-direction:column;
+        padding:0;
     }
 }
 

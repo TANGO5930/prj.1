@@ -4,3 +4,4 @@ hamburger =document.querySelector(".hamburger");
             navBar =document.querySelector(".navbar");
             navBar.classList.toggle("active");   
         }
+        

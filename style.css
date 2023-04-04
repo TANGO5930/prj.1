@@ -17,6 +17,24 @@
 
     
 }
+.navbar ul li{
+    position:relative;
+}
+.navbar ul li ::after{
+    content:"";
+    height:3px;
+    width:0;
+    background:aqua;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    
+
+}
+.navbar ul li  :hover::after{
+    width:100%;
+    transition:0.6s;
+}
 .nav-bar ul li{
     display:inline-block;
     padding:0 40px;
@@ -45,11 +63,10 @@
     padding:10px;
 }
 .card{
-    height:250px;
-    width:250px;
+    height:350px;
+    width:280px;
     background-color:white;
-    padding:5px 10px;
-   
+    
     border-radius:8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
@@ -64,20 +81,28 @@
 
 }
 .card-footer{
-    height:50px;
+    
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:10px;
+    justify-content:space-between;
 }
 .card-body{
-    height:200px;
-    width:250px;
+    height:230px;
+    width:280px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
     
 }
 .img{
     height:200px;
     width:230px;
     border:10px;
+    object-fit:cover;
 }
 #price{
     font-weight:bold;
@@ -120,6 +145,7 @@
     height:100px;
     width:100px;
     border-radius:50px;
+    object-fit: cover;
     
 }
 .tx.card-body{
@@ -175,6 +201,28 @@
 }
 .footer ul li{
     font-family:poppins;   
+}
+.description{
+    padding:5px;
+    
+}
+.cartbtn{
+    padding:10px;
+    background-color:aqua;
+    font-weight:bold;
+    /* border:none; */
+    border-radius:10px;
+    
+}
+.tx.card-footer{
+    justify-content:center;
+    text-align:center;
+    display:flex;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+   
 }
 @media only screen and (max-width:1140px ){
    
@@ -236,6 +284,7 @@
         text-align:center;
         /* margin-left:45%; */
         padding:30px 0;
+
       
 
     }
